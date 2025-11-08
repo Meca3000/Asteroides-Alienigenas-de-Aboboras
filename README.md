@@ -1,2 +1,3 @@
 # Asteroides-Alienigenas-de-Aboboras
-Jogo desenvolvida para aprender alguns comandos.
+Jogo desenvolvido para aprender alguns comandos.
+Python
