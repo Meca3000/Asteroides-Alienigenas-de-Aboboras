@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎃 Jogo de Abóboras Alienígenas - Halloween</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <div id="ui">
+            <div>PONTOS: <span id="score">0</span></div>
+            <div>VIDAS: <span id="lives">3</span></div>
+        </div>
+        
+        <div id="gameOver">
+            GAME OVER
+            <p>Pressione ESPAÇO para reiniciar</p>
+        </div>
+        
+        <div id="instructions">
+            ← → para mover | ESPAÇO para atirar
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
